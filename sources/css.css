@@ -1,0 +1,33 @@
+#bg {
+  background: white;
+}
+
+#redPers, #bluePers {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	display: none;
+}
+
+#red {
+	position: absolute;
+	border-radius: 50%;
+	width: 100px;
+    height: 100px;
+    background: red;
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+#blue {
+	position: absolute;
+	border-radius: 50%;
+	width: 100px;
+    height: 100px;
+    background: blue;
+	margin-top: 10%;
+	margin-left: 30%;
+}
