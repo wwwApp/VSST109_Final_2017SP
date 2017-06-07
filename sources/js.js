@@ -8,7 +8,11 @@ const context = canvas.getContext("2d");
 // assign each circle to var
 var circles = document.getElementsByTagName("div");
 var red = document.getElementById("red");
+var yellow = document.getElementById("yellow");
+var orange = document.getElementById("orange");
 var blue = document.getElementById("blue");
+var green = document.getElementById("green");
+var purple = document.getElementById("purple");
 //var redPos = red.getBoundingClientRect();
 
 //setting basic values for mvt
@@ -19,20 +23,54 @@ var dy=5;
 var color;
 
 
+//warm colors
 red.addEventListener("click", function(){ 
 	setInitialPos();
-	color = "red";
+	color = "#ff2354";
 	dx=3;
 	setInterval(draw,10);
 	document.getElementById("redbg").style.display="block";
 });
 
+yellow.addEventListener("click", function(){ 
+	setInitialPos();
+	color = "#ffdd1d";
+	dx=3;
+	setInterval(draw,10);
+	document.getElementById("yellowbg").style.display="block";
+});
+
+orange.addEventListener("click", function(){ 
+	setInitialPos();
+	color = "#ff5e1f";
+	dx=3;
+	setInterval(draw,10);
+	document.getElementById("orangebg").style.display="block";
+});
+
+//cool colors
 blue.addEventListener("click", function(){ 
 	setInitialPos();
-	color = "blue";
+	color = "#1f65ff";
 	dx=2;
 	setInterval(draw2,15);
 	document.getElementById("bluebg").style.display="block";
+});
+
+green.addEventListener("click", function(){ 
+	setInitialPos();
+	color = "#21ff86";
+	dx=2;
+	setInterval(draw2,15);
+	document.getElementById("greenbg").style.display="block";
+});
+
+purple.addEventListener("click", function(){ 
+	setInitialPos();
+	color = "#761fff";
+	dx=2;
+	setInterval(draw2,15);
+	document.getElementById("purplebg").style.display="block";
 });
 
 function setInitialPos()
@@ -50,7 +88,7 @@ function draw()
 {
 	context.clearRect(0,0, canvas.width, canvas.height);
 	context.beginPath();
-	context.fillStyle="#FA364D";
+	context.fillStyle=color;
 	// Draws a circle of radius 20 at the coordinates of your mouse click
 	context.arc(x,y,20,0,Math.PI*2,true);
 	context.closePath();

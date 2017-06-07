@@ -62,7 +62,7 @@
 
 
 
-.redPers, .yellowPers, {
+.redPers, .yellowPers, .orangePers, .greenPers, .purplePers, .bluePers{
     position: absolute;
     text-align: left;
     top: 50%;
@@ -77,7 +77,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background: red;
+    background: #ff2354;
     margin-top: 10%;
     margin-left: 10%;
     cursor: pointer ;
@@ -88,7 +88,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background: blue;
+    background: #1f65ff;
     margin-top: 10%;
     margin-left: 20%;
     cursor: pointer ;
@@ -99,7 +99,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background: yellow;
+    background: #ffdd1d;
     margin-top: 10%;
     margin-left: 30%;
     cursor: pointer ;
@@ -110,7 +110,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background: green;
+    background: #21ff86;
     margin-top: 10%;
     margin-left: 40%;
     cursor: pointer ;
@@ -121,7 +121,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background: orange;
+    background: #ff5e1f;
     margin-top: 10%;
     margin-left: 50%;
     cursor: pointer ;
@@ -132,14 +132,19 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background: purple;
+    background: #761fff;
     margin-top: 10%;
     margin-left: 60%;
         cursor: pointer ;
 
 }
+
 #colorcontain {
-     padding: 0;
+    padding: 0;
     margin: auto;
     display: block;
+}
+
+#colorcontain p {
+	font-family: 'Roboto Slab', serif;
 }
