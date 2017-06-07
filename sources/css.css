@@ -1,5 +1,6 @@
 
 /* Background images */
+
 #redbg, #bluebg, #yellowbg, #greenbg, #orangebg, #purplebg{
 	width: 100%;
     height: 100%;
@@ -10,60 +11,6 @@
 	display: none;
 }
 
-<<<<<<< HEAD
-
-=======
-#bluebg{
-	width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -5000;
-	display: none;
-}
-
-#yellowbg{
-	width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -5000;
-	display: none;
-}
-
-#greenbg{
-	width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -5000;
-	display: none;
-}
-
-#orangebg{
-	width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -5000;
-	display: none;
-}
-
-#purplebg{
-	width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -5000;
-	display: none;
-}
->>>>>>> origin/master
-
 .redPers, .yellowPers, .orangePers, .greenPers, .purplePers, .bluePers{
     position: absolute;
     text-align: left;
@@ -72,6 +19,7 @@
     transform: translate(-50%, -50%);
     color: black;
     display: none;
+	font-family: 'Roboto Slab', serif;
 }
 
 #red {
