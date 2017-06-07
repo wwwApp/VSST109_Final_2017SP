@@ -1,4 +1,4 @@
-
+*{overflow: hidden}
 /* Background images */
 
 #redbg, #bluebg, #yellowbg, #greenbg, #orangebg, #purplebg{
@@ -9,9 +9,6 @@
     left: 0;
     z-index: -5000;
 	display: none;
-    overflow: hidden;
-    max-width: 100vw;
-    max-height: 100vh;
 }
 
 /* Pers Info */
@@ -28,18 +25,18 @@
 }
 
 .fact1 {
-	height: 150px;
+	margin-top: -5%;
 	width: 230px;
 	margin-left: -40%;
 }
 
 .fact2 {
-	height: 150px;
+	margin-top: -5%;
 	width: 230px;
 }
 
 .fact3 {
-	height: 150px;
+	margin-top: -5%;
 	width: 230px;
 	margin-left: 40%;
 }
