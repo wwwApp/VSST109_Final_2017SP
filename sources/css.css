@@ -2,15 +2,16 @@
   background: white;
 }
 
-#redPers, #bluePers {
+#redPers {
 	position: absolute;
-	text-align: center;
+	text-align: left;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: black;
 	display: none;
 }
+
 
 #red {
 	position: absolute;
