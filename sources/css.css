@@ -1,6 +1,6 @@
 
 /* Background images */
-#redbg{
+#redbg, #bluebg, #yellowbg, #greenbg, #orangebg, #purplebg{
 	width: 100%;
     height: 100%;
     position: absolute;
@@ -10,6 +10,7 @@
 	display: none;
 }
 
+<<<<<<< HEAD
 #bluebg{
 	width: 100%;
     height: 100%;
@@ -63,6 +64,9 @@
 
 
 .redPers, .yellowPers, .orangePers, .greenPers, .purplePers, .bluePers{
+=======
+.redPers, .bluePers, .yellowPers, .greenPers, .orangePers, .purplePers {
+>>>>>>> origin/master
     position: absolute;
     text-align: left;
     top: 50%;
