@@ -10,7 +10,7 @@
 	display: none;
 }
 
-.redPers, .yellowPers, {
+.redPers, .bluePers, .yellowPers, .greenPers, .orangePers, .purplePers {
     position: absolute;
     text-align: left;
     top: 50%;
