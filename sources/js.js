@@ -24,7 +24,7 @@ red.addEventListener("click", function(){
 	color = "red";
 	dx=3;
 	setInterval(draw,10);
-	document.getElementById("bg").style.background="linear-gradient(red, #FF9999)";
+	document.getElementById("redbg").style.display="block";
 });
 
 blue.addEventListener("click", function(){ 
@@ -32,7 +32,7 @@ blue.addEventListener("click", function(){
 	color = "blue";
 	dx=2;
 	setInterval(draw2,15);
-	document.getElementById("bg").style.background="linear-gradient(blue, #72B2F7)";
+	document.getElementById("bluebg").style.display="block";
 });
 
 function setInitialPos()
@@ -50,7 +50,7 @@ function draw()
 {
 	context.clearRect(0,0, canvas.width, canvas.height);
 	context.beginPath();
-	context.fillStyle=color;
+	context.fillStyle="#FA364D";
 	// Draws a circle of radius 20 at the coordinates of your mouse click
 	context.arc(x,y,20,0,Math.PI*2,true);
 	context.closePath();
