@@ -55,6 +55,10 @@
     cursor: pointer ;
 }
 
+#red:hover, #blue:hover, #yellow:hover, #green:hover, #orange:hover, #purple:hover {
+   transform: translate(0px, -20px);
+}
+
 #blue {
     position: absolute;
     border-radius: 50%;
